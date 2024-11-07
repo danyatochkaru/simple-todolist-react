@@ -26,7 +26,7 @@ export default function InputForm() {
                className={'flex-1 p-2 transition rounded-lg border-2 border-brand-6 bg-zinc-50 outline-none hover:border-brand-4 focus:bg-zinc-100 focus:border-brand-4'}
         />
         <button type={'submit'}
-                className={'p-2 transition rounded-lg border-none bg-brand-6 text-zinc-50 hover:bg-brand-4'}>Добавить
+                className={'p-2 transition rounded-lg border-none bg-brand-6 text-zinc-50 hover:bg-brand-4 active:bg-brand-7'}>Добавить
         </button>
     </form>
 }
