@@ -16,7 +16,7 @@ export default function ToggleCompletedButton({itemId, isCompleted, className, .
     }
 
     return <>
-        <input type={'checkbox'} hidden checked={isCompleted}/>
+        <input type={'checkbox'} hidden readOnly checked={isCompleted}/>
         <button
             {...props}
             onClick={handleToggleComplete}
